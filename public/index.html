@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Carlos Leyton - Front-end Developer</title>
+		<!-- Link our CSS stylesheet -->
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<main>
+			<header>
+				<img src="i/carlos.jpg" alt="Avatar" class="avatar">
+			<div class="header-content">
+        <h1>Carlos Leyton Severino</h1>
+        <div class="subtitle">
+          Front-end Developer <span class="dot">•</span>
+          Quilpué, Chile <span role="img" aria-label="Chile">CL</span>
+        </div>
+        <div class="contacts">
+          <a href="https://github.com/carlosleyton" target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span>
+          </a>
+          <a href="https://profile.codersrank.io/user/carlosleyton" target="_blank" rel="noopener noreferrer">
+            <span>CodersRank</span>
+          </a>
+        </div>
+      </div>
+      </div>
+    </header>
+			<section>
+				<h2>Experiencia y Educación</h2>
+
+				<!-- Work experience widget -->
+				<div class="widget activity-widget">
+					<codersrank-work-experience
+						username="carlosleyton"
+						logos
+						branding="false"
+					></codersrank-work-experience>
+				</div>
+
+				<!-- Education widget -->
+				<div class="widget activity-widget">
+					<codersrank-education
+						username="carlosleyton"
+						branding="false"
+					></codersrank-education>
+				</div>
+			</section>
+
+			<section>
+				<h2>Actividad y Estadísticas</h2>
+
+				<!-- Summary widget -->
+				<div class="widget activity-widget">
+					<codersrank-summary
+						username="carlosleyton"
+						show-header="false"
+						branding="false"
+					></codersrank-summary>
+				</div>
+
+				<!-- Activity widget -->
+				<div class="widget activity-widget">
+					<codersrank-activity
+						username="carlosleyton"
+						legend="false"
+						labels
+						tooltip
+						step="5"
+						svg-width="1120"
+						branding="false"
+					></codersrank-activity>
+				</div>
+
+				<!-- Skills chart widget -->
+				<div class="widget activity-widget">
+					<codersrank-skills-chart
+						username="carlosleyton"
+						labels
+						tooltip
+						skills="JavaScript,CSS,Less,Vue,Svelte,TypeScript,CSS,HTML"
+						svg-width="1120"
+						svg-height="400"
+						branding="false"
+					></codersrank-skills-chart>
+				</div>
+			</section>
+
+			<footer>
+				<!-- Generic footer copy -->
+			</footer>
+		</main>
+		<script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+		<script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+		<script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+		<script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
+		<script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
+	</body>
+</html>
